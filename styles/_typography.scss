@@ -1,0 +1,27 @@
+html{
+    font-size: 14px;
+    font-weight: 400;
+}
+h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: bolder;
+
+    @include respond-below(md){
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    @include respond-below(sm){
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+
+p{
+    font-size: 1.2rem;
+
+    @include respond-below(sm){
+        font-size: .9rem;
+    }
+}

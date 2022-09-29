@@ -1,0 +1,55 @@
+.hero-area{
+    display: flex;
+    align-items: center;
+
+    // width: 100vw;
+    min-height: 80vh;
+    background: rgb(57,62,70);
+    background: linear-gradient(180deg, rgba(57,62,70,1) 35%, rgba(57,62,70,0.8578781854538691) 88%);
+
+    .container{
+        @media (max-height: 740px) {
+            padding-top: 49px;
+        }
+    }
+
+    .row{
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+        .hero-text{
+            // text-align: center;
+
+            *{
+                color: white;
+            }
+
+            h1{
+                text-transform: capitalize;
+
+                span{
+                    color: #FD7014;
+                }
+            }
+
+            p{
+                text-align: start;
+            }
+
+        }
+
+        .hero-image{
+            display: flex;
+            justify-content: center;
+            img{
+                max-width: 400px;
+
+                @include respond-below(sm){
+                    max-width: 250px;
+                }
+            }
+        }
+    }
+    
+}

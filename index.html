@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/b7166c52a9.js" crossorigin="anonymous"></script>
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="">
+                <img src="images/Shopping Cart.svg" alt="">
+            </a>
+        </div>
+        <div class="mobile-search" id="mobile-search">
+            <div class="search-area d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <ul id="nav-items">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Shop</a>
+                </li>
+                <li>
+                    <a href="">Category</a>
+                </li>
+                <li id="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                    </a>
+                </li>
+                <li id="search">
+                    <div class="search-area d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="icon-area">
+            <div class="search-icon">
+                <label for="search-check">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </label>
+                <input type="checkbox" name="" id="search-check" onclick="checkSearchStatus()">
+            </div>
+            <div class="cart-icon">
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                </a>
+            </div>
+            <div class="menu-icon">
+                <label for="check" class="menu-button">
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                </label>
+                <input type="checkbox" name="" id="check" onclick="checkMenuStatus()">
+            </div>   
+        </div>
+    </header>
+    <main>
+        <section class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="hero-text col-md-6">
+                        <h1>
+                            let's <span> shop</span>
+                            <!-- <br> -->
+                            together
+                        </h1>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        </p>
+                    </div>
+                    <div class="hero-image col-md-6">
+                        <img src="images/hero-illustration.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- custom -->
+    <script src="script/script.js"></script>
+</body>
+</html>
