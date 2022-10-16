@@ -1,0 +1,27 @@
+.feature-area{
+    background-color: $light-shade;
+
+    .container{
+        
+        padding: 4rem;
+
+        .row{
+            .feature{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+
+                .feature-icon{
+                    margin-right: 2rem;
+
+                    i{
+                        color: $highlight-color;
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}

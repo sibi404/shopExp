@@ -42,6 +42,10 @@ h1 {
   }
 }
 
+h4 {
+  font-weight: bold;
+}
+
 p {
   font-size: 1.2rem;
 }
@@ -247,4 +251,24 @@ header .icon-area input[type=checkbox] {
   .hero-area .row .hero-image img {
     max-width: 250px;
   }
+}
+
+.feature-area {
+  background-color: #EEEEEE;
+}
+.feature-area .container {
+  padding: 4rem;
+}
+.feature-area .container .row .feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.feature-area .container .row .feature .feature-icon {
+  margin-right: 2rem;
+}
+.feature-area .container .row .feature .feature-icon i {
+  color: #FD7014;
+  font-size: 3rem;
 }/*# sourceMappingURL=main.css.map */
